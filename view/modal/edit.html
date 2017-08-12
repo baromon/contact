@@ -1,0 +1,103 @@
+<div class="modal-dialog" role="document" id="editModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">###Title###</h4>
+        </div>
+        <div class="modal-body">
+            <form class="form-horizontal" id="contactEditForm">
+                <input name="uid" value="###uid###" type="hidden">
+                <input name="action" value="###actionBouton###" type="hidden">
+                <input name="robot" value="" type="hidden">
+                <div class="row">
+                    <div class="###classRowHeader###" id="photoProfilEdit">
+                        ###photoHtml###
+                    </div>
+                    <div class="form-group ###classRowInput###" id="unfilledGroup-photo">
+                        <label for="photo">Photo:</label>
+                        <input type="file" class="form-control-file" id="photoFile" name="photoFile">
+                        <input class="form-control" id="photo" name="photo" value="###photo###" type="hidden">
+                    </div>
+                </div>
+                <div class="form-group row" id="unfilledGroup-civilite">
+                    <label class="control-label ###classRowHeader###" for="civilite">Civilité: *</label>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <select class="form-control" id="civilite" name="civilite">
+                            <option value="0" ###civiliteExplain###>Civilité</>
+                            <option ###civiliteM###>M</option>
+                            <option ###civiliteMme###>Mme</option>
+                            <option ###civiliteMlle###>Mlle</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row" id="unfilledGroup-nom">
+                    <label class="control-label ###classRowHeader###" for="nom">Nom: *</label>
+                    <div class="###classRowInput###">
+                        <input class="form-control" id="nom" name="nom" value="###nom###">
+                    </div>
+                </div>
+                <div class="form-group row" id="unfilledGroup-prenom">
+                    <label class="control-label ###classRowHeader###" for="prenom">Prénom: *</label>
+                    <div class="###classRowInput###">
+                        <input class="form-control" id="prenom" name="prenom" value="###prenom###">
+                    </div>
+                </div>
+                <div class="form-group row" id="unfilledGroup-email">
+                    <label class="control-label ###classRowHeader###" for="email">Email: *</label>
+                    <div class="###classRowInput###">
+                        <input class="form-control" id="email" name="email" value="###email###">
+                    </div>
+                </div>
+                <div class="form-group row" id="unfilledGroup-adresse">
+                    <label class="control-label ###classRowHeader###" for="adresse">Adresse: *</label>
+                    <div class="###classRowInput###">
+                        <textarea class="form-control" rows="3" id="adresse" name="adresse">###adresse###</textarea>
+                    </div>
+                </div>
+                <div class="form-group row" id="unfilledGroup-societe">
+                    <label class="control-label ###classRowHeader###" for="nom">Société:</label>
+                    <div class="###classRowInput###">
+                        <input class="form-control" id="societe" name="societe" value="###societe###">
+                    </div>
+                </div>
+                <div class="form-group row" id="unfilledGroup-telephone">
+                    <label class="control-label ###classRowHeader###" for="nom">Téléphone:</label>
+                    <div class="###classRowInput###">
+                        <input class="form-control" id="telephone" name="telephone" value="###telephone###">
+                    </div>
+                </div>
+                <div class="form-group row" id="unfilledGroup-mobile">
+                    <label class="control-label ###classRowHeader###" for="nom">Mobile:</label>
+                    <div class="###classRowInput###">
+                        <input class="form-control" id="mobile" name="mobile" value="###mobile###">
+                    </div>
+                </div>
+                <div class="form-group row" id="unfilledGroup-zip">
+                    <label class="control-label ###classRowHeader###" for="nom">Code Postale:</label>
+                    <div class="###classRowInput###">
+                        <input class="form-control" id="zip" name="zip" value="###zip###">
+                    </div>
+                </div>
+                <div class="form-group row" id="unfilledGroup-ville">
+                    <label class="control-label ###classRowHeader###" for="nom">Ville:</label>
+                    <div class="###classRowInput###">
+                        <input class="form-control" id="ville" name="ville" value="###ville###">
+                    </div>
+                </div>
+                <div class="form-group row" id="unfilledGroup-pays">
+                    <label class="control-label ###classRowHeader###" for="pays">Pays: *</label>
+                    <div class="###classRowInput###">
+                        <select class="form-control" id="pays" name="pays">
+                            ###selectPays###
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <p class="text-center text-danger">Les champs précédés d'un astérisque (*) sont obligatoires</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-success" id="###idBouton###" >###nomBouton###</button>
+            <button type="button" class="btn btn-info" data-dismiss="modal">&times; Fermer</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,121 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.clickableGlyphicon {
+    cursor: pointer;
+}
+
+.contactRowHover {
+    background-color: aqua;
+}
+
+#contactTitleDiv {
+    background-image: url(../img/keyboard.png);
+    background-size: cover;
+}
+
+/************************************************************************/
+/* Logo */
+
+#contactFooterDiv {
+    min-height: 140px;
+    background-color: #B694BD;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+@media only screen {
+    #bootstrap, #html5, #jquery, #php, #mysql {
+        width: 135px;
+        height: 100px;
+        transform: scale(0.35);
+    }
+}
+
+@media only screen and (min-width:480px) {
+    #bootstrap, #html5, #jquery, #php, #mysql {
+        width: 160px;
+        height: 100px;
+        transform: scale(0.5);
+    }
+}
+
+@media only screen and (min-width:800px) {
+    #bootstrap, #html5, #jquery, #php, #mysql {
+        width: 160px;
+        height: 140px;
+        transform: scale(1);
+    }
+}
+
+#bootstrap {
+    background: url(../img/bottom_logos.png) no-repeat -480px 0;
+    width: 160px;
+    height: 100px;
+    position: absolute
+}
+
+#bootstrap:hover {
+    background-position: -480px -100px
+}
+
+#html5 {
+    background: url(../img/bottom_logos.png) no-repeat -640px 0;
+    width: 160px;
+    height: 100px;
+    position: absolute
+}
+
+#html5:hover {
+    background-position: -640px -100px
+}
+
+#jquery {
+    background: url(../img/bottom_logos.png) no-repeat 0 0;
+    width: 160px;
+    height: 100px;
+    position: absolute
+
+}
+
+#jquery:hover {
+    background-position: 0 -100px
+}
+
+#php {
+    background: url(../img/bottom_logos.png) no-repeat -160px 0;
+    width: 160px;
+    height: 100px;
+    position: absolute
+}
+
+#php:hover {
+    background-position: -160px -100px
+}
+
+#mysql {
+    background: url(../img/bottom_logos.png) no-repeat -320px 0;
+    width: 160px;
+    height: 100px;
+    position: absolute
+}
+
+#mysql:hover {
+    background-position: -320px -100px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

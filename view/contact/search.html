@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+        <input id="paginationCurPage" name="curPage" type="hidden">
+        <div class="input-group">
+                <span class="input-group-btn">
+                    <button id="searchReset" class="btn btn-info"><i class="fa fa-times"></i></button>
+                </span>
+            <input name="searchWordDisplay" id="searchWordDisplay" class="form-control" value="###searchWordDisplay###"
+                   placeholder="###searchWordExplain###">
+            <input name="searchWord" id="searchWord" class="form-control" value="###searchWord###" type="hidden">
+            <span class="input-group-btn">
+                    <button class="btn btn-info" id="searchValid"><i class="fa fa-search"></i></button>
+                </span>
+        </div>
+        <div class="visible-xs"><br/>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+        <button class="btn btn-info" id="actionAdd">Ajouter un nouveau contact</button>
+        <div class="visible-xs visible-sm"><br/>
+        </div>
+    </div>
+    <div>
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+            <select class="form-control" id="rowPerPage" style="width:auto !important;">
+                <option ###10rowPerPage###>10</option>
+                <option ###20rowPerPage###>20</option>
+                <option ###50rowPerPage###>50</option>
+                <option ###100rowPerPage###>100</option>
+            </select>
+        </div>
+    </div>
+</div>
