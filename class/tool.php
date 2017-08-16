@@ -2,6 +2,8 @@
 
 namespace NG\Tool;
 
+require_once $_SERVER['DOCUMENT_ROOT'] . '.php';
+
 class tool
 {
 
