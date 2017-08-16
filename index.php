@@ -1,3 +1,5 @@
+<!-- Welcome Github-->
+
 <?php include("view/common/head.php"); ?>
 <body>
 
